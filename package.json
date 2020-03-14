@@ -1,0 +1,19 @@
+{
+  "name": "beginner-tutorials",
+  "version": "1.0.0",
+  "description": "beginner level node.js app built for self-learning and maybe creating a tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Varun Goyal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/govarun/node-beginner-tutorials.git"
+  },
+  "bugs": {
+    "url": "https://github.com/govarun/node-beginner-tutorials/issues"
+  },
+  "homepage": "https://github.com/govarun/node-beginner-tutorials#readme"
+}
