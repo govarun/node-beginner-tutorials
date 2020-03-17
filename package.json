@@ -4,7 +4,8 @@
   "description": "beginner level node.js app built for self-learning and maybe creating a tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Varun Goyal",
   "license": "MIT",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/govarun/node-beginner-tutorials/issues"
   },
-  "homepage": "https://github.com/govarun/node-beginner-tutorials#readme"
+  "homepage": "https://github.com/govarun/node-beginner-tutorials#readme",
+  "dependencies": {
+    "connect-redis": "^4.0.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "passport": "^0.4.1"
+  }
 }
