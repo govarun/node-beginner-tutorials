@@ -1,20 +1,14 @@
 const express = require('express')
 const passport = require('passport')
 const session = require('express-session')
+console.log(session)
+
+const RedisStore = require('connect-redis')(session)
 
 const app = express()
+console.log(app)
 const port = 3001
 
-app.get('/', (request, response) => {
-    console.log(request.url)
-    response.send("Express server running, Wuhuu, Get request btw")
-})
+// app.listen(session({
 
-
-app.listen(port, (err) => {
-    if (err) {
-        return console.log("error happened", err)
-    }
-
-    console.log(`server listening on port: ${port}`)
-})
+// }))
